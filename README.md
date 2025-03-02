@@ -1,2 +1,5 @@
-# Mall-Programm
-Ein Mall Programm für die Prowise Tafel weil das neue Programm nicht gut ist.
+# Mall Programm für Prowise Tafel
+Version: 1.0.0
+Autor: Maximilian
+
+MIT Licence

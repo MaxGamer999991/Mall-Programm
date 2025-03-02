@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    touch-action: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#datei {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightgray;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    gap: 10px;
+}
+
+span#home {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 7px;
+}
+span#menu {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+div#menu-ausklap {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    bottom: 70px;
+    margin: -10px;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 10px;
+}
+div.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: darkgray;
+    gap: 5px;
+}
+
+div#page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: darkgray;
+    gap: 5px;
+}
+
+div#tools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightgray;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 10px;
+    gap: 10px;
+}
+
+div#tools span {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+div#warnung-new {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 5px;
+}
+span#warnung-new-text {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+div#warnung-new-buttons button {
+    background-color: darkgray;
+    border: none;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 7px;
+}

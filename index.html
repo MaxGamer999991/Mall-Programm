@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Malen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ein Male programm">
+    <meta charset="UTF-8">
+    <link rel="favicon" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="datei">
+        <span class="material-symbols-rounded" id="home">&#xE88A</span>
+
+        <span class="material-symbols-rounded" id="menu">&#xE5D2</span>
+        <div id="menu-ausklap">
+            <div class="menu-item" id="menu-item-new">
+                <span class="material-symbols-rounded" id="menu-new">&#xE89c</span>
+                <span id="menu-new-text">Neu</span>
+            </div>
+            <div class="menu-item" id="menu-item-open">
+                <span class="material-symbols-rounded" id="menu-open">&#xE9FC</span>
+                <span id="menu-open-text">Öffnen</span>
+            </div>
+            <div class="menu-item" id="menu-item-save">
+                <span class="material-symbols-rounded" id="menu-save">&#xE161</span>
+                <span id="menu-save-text">Speichern</span>
+            </div>
+            <div class="menu-item" id="menu-item-saveas">
+                <span class="material-symbols-rounded" id="menu-saveas">&#xE161</span>
+                <span id="menu-saveas-text">Speichern unter</span>
+            </div>
+        </div>
+
+        <div id="page">
+            <span class="material-symbols-rounded" id="page-left">&#xE5CB</span>
+            <span id="page-current">1</span>
+            <span class="material-symbols-rounded" id="page-right">&#xE5CC</span>
+        </div>
+    </div>
+
+    <div id="tools">
+        <span class="material-symbols-rounded" id="tool-pen-icon">&#xE3AE</span>
+        <span class="material-symbols-rounded" id="tool-eraser-icon">&#xE6D0</span>
+        <span class="material-symbols-rounded" id="tool-line-icon">&#xF41E</span>
+    </div>
+
+    <div id="warnung-new">
+        <span id="warnung-new-text">Altes ersetzen?</span>
+        <div id="warnung-new-buttons">
+            <button id="warnung-new-ja" onclick="warnung_new_ja()">Ja</button>
+            <button id="warnung-new-nein" onclick="warnung_new_nein()">Nein</button>
+            <button id="warnung-new-abbrechen" onclick="warnung_new_nein()">Abbrechen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
