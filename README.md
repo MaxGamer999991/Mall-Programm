@@ -1,4 +1,6 @@
 # Malprogramm für Prowise Tafel
+https://maxgamer999991.github.io/Malprogramm/index.html
+
 Version: 1.0.0  
 Autor: Maximilian
 
@@ -11,4 +13,5 @@ Autor: Maximilian
 - Öffnen
 - Kompatibel mit Pronote und Teach (In Arbeit)
 
-MIT Lizenz
+## License
+MIT License
